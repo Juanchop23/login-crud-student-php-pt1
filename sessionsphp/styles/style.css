@@ -1,0 +1,77 @@
+/* POPPINS GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: black;
+    padding: 0 0 0 45px;
+}
+
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: black;
+}
+
+/* PLACEHOLDERS */
+::-webkit-input-placeholder{
+    color: black;
+}
+
+.submit {
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
